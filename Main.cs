@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -31,7 +31,6 @@ public class Main : MonoBehaviour
     {
         musicSourse.volume = (float)PlayerPrefs.GetInt("MusicVolume") / 9;
         soundSourse.volume = (float)PlayerPrefs.GetInt("SoundVolume") / 9;
-
     }
 
     private void LateUpdate()
@@ -67,7 +66,6 @@ public class Main : MonoBehaviour
                 hearts[i].sprite = isLife;
             else
                 hearts[i].sprite = nonLife;
-
         }
     }
 
