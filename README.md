@@ -11,4 +11,4 @@ There are two ways to play it:
 1) the player can just complete the level as it usually done for 2D-platformers;
 2) or focus on objects, interact with them, extract sounds and create music within the level. 
 
-Click the [link](https://play.unity.com/mg/other/ba_mila-q) to play the game!
+Click the [link](https://play.unity.com/mg/other/ba_mila-q)](https://play.unity.com/en/games/d6f010d8-a973-4a7d-a8fb-b92abe2d8f48/webgl-builds) to play the game!
