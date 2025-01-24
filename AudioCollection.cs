@@ -5,174 +5,170 @@ using UnityEngine;
 public class AudioCollection : MonoBehaviour
 {
     public AudioSource audioSource;
-    public AudioClip enemyDead, saw, bullet, keySound, doorSound, shakerSound, hiHatSound,  kickSound, snareSound, jumpSound, coinSound, coin1Sound, 
-        turururuSound, winSound, loseSound, markBox, heartSound, painSound, killSound, starSound, inWater, ground1, ground2, ground3, ground4, ground5, intro, intro2, groundD, groundD2, stepSound, trampoline, water;
+    public AudioClip bullet, coin1Sound, coinSound, doorSound, enemyDead, ground1, ground2, ground3, ground4, ground5, groundD, groundD2, heartSound, hiHatSound, inWater, intro, intro2, jumpSound, keySound, kickSound, killSound, loseSound, markBox, painSound, saw, shakerSound, snareSound, starSound, stepSound, tonSound, trampoline, water, winSound;
+    
+public void PlayBulletSound()
+{
+    audioSource.PlayOneShot(bullet);
+}
 
-    public void PlayEnemyDeadSound()
-    {
-        audioSource.PlayOneShot(enemyDead);
-    }
+public void PlayCoin1Sound()
+{
+    audioSource.PlayOneShot(coin1Sound);
+}
 
-    public void PlayInWater()
-    {
-        audioSource.PlayOneShot(inWater);
-    }
+public void PlayCoinSound()
+{
+    audioSource.PlayOneShot(coinSound);
+}
 
-    public void PlaySaw()
-    {
-        audioSource.PlayOneShot(saw);
-    }
+public void PlayDoorSound()
+{
+    audioSource.PlayOneShot(doorSound);
+}
 
-    public void PlayBulletSound()
-    {
-        audioSource.PlayOneShot(bullet);
-    }
+public void PlayEnemyDeadSound()
+{
+    audioSource.PlayOneShot(enemyDead);
+}
 
-    public void PlayStepSound()
-    {
-        audioSource.PlayOneShot(stepSound);
-    }
+public void PlayGround1()
+{
+    audioSource.PlayOneShot(ground1);
+}
 
-    public void PlayKeySound()
-    {
-        audioSource.PlayOneShot(keySound);
-    }
+public void PlayGround2()
+{
+    audioSource.PlayOneShot(ground2);
+}
 
-    public void PlayDoorSound()
-    {
-        audioSource.PlayOneShot(doorSound);
-    }
+public void PlayGround3()
+{
+    audioSource.PlayOneShot(ground3);
+}
 
-    public void PlayShakerSound()
-    {
-        audioSource.PlayOneShot(shakerSound);
-    }
+public void PlayGround4()
+{
+    audioSource.PlayOneShot(ground4);
+}
 
-    public void PlayHiHatSound()
-    {
-        audioSource.PlayOneShot(hiHatSound);
-    }
+public void PlayGround5()
+{
+    audioSource.PlayOneShot(ground5);
+}
 
-    public void PlayKickSound()
-    {
-        audioSource.PlayOneShot(kickSound);
-    }
+public void PlayGroundD()
+{
+    audioSource.PlayOneShot(groundD);
+}
 
-    public void PlaySnareSound()
-    {
-        audioSource.PlayOneShot(snareSound);
-    }
-  
-    public void PlayJumpSound()
-    {
-        audioSource.PlayOneShot(jumpSound);
-    }
+public void PlayGroundD2()
+{
+    audioSource.PlayOneShot(groundD2);
+}
 
-    public void PlayCoinSound()
-    {
-        audioSource.PlayOneShot(coinSound);
-    }
+public void PlayHeartSound()
+{
+    audioSource.PlayOneShot(heartSound);
+}
 
-    public void PlayCoin1Sound()
-    {
-        audioSource.PlayOneShot(coin1Sound);
-    }
+public void PlayHiHatSound()
+{
+    audioSource.PlayOneShot(hiHatSound);
+}
 
-    public void PlayTurururuSound()
-    {
-        audioSource.PlayOneShot(turururuSound);
-    }
+public void PlayInWater()
+{
+    audioSource.PlayOneShot(inWater);
+}
 
-    public void PlayWinSound()
-    {
-        audioSource.loop = true;
-        audioSource.PlayOneShot(winSound);
-    }
+public void PlayIntro()
+{
+    audioSource.PlayOneShot(intro);
+}
 
-    public void PlayLoseSound()
-    {
-        audioSource.PlayOneShot(loseSound);
-    }
+public void PlayIntro2()
+{
+    audioSource.PlayOneShot(intro2);
+}
 
-    public void PlayMarkBox()
+public void PlayJumpSound()
+{
+    audioSource.PlayOneShot(jumpSound);
+}
 
-    {
-        audioSource.PlayOneShot(markBox);
-    }
+public void PlayKeySound()
+{
+    audioSource.PlayOneShot(keySound);
+}
 
-    public void PlayHeartSound()
-    {
-        audioSource.PlayOneShot(heartSound);
-    }
+public void PlayKickSound()
+{
+    audioSource.PlayOneShot(kickSound);
+}
 
-    public void PlayPainSound()
-    {
-        audioSource.PlayOneShot(painSound);
-    }
+public void PlayKillSound()
+{
+    audioSource.PlayOneShot(killSound);
+}
 
-    public void PlayKillSound()
-    {
-        audioSource.PlayOneShot(killSound);
-    }
+public void PlayLoseSound()
+{
+    audioSource.PlayOneShot(loseSound);
+}
 
-    public void PlayStar()
-    {
-        audioSource.PlayOneShot(starSound);
-    }
+public void PlayMarkBox()
+{
+    audioSource.PlayOneShot(markBox);
+}
 
-    public void PlayGround1()
-    {
-        audioSource.PlayOneShot(ground1);
-    }
+public void PlayPainSound()
+{
+    audioSource.PlayOneShot(painSound);
+}
 
-    public void PlayGround2()
-    {
-        audioSource.PlayOneShot(ground2);
-    }
+public void PlaySaw()
+{
+    audioSource.PlayOneShot(saw);
+}
 
-    public void PlayGround3()
-    {
-        audioSource.PlayOneShot(ground3);
-    }
+public void PlayShakerSound()
+{
+    audioSource.PlayOneShot(shakerSound);
+}
 
-    public void PlayGround4()
-    {
-        audioSource.PlayOneShot(ground4);
-    }
+public void PlaySnareSound()
+{
+    audioSource.PlayOneShot(snareSound);
+}
 
-    public void PlayGround5()
-    {
-        audioSource.PlayOneShot(ground5);
-    }
+public void PlayStar()
+{
+    audioSource.PlayOneShot(starSound);
+}
 
-    public void PlayIntro()
-    {
-        audioSource.PlayOneShot(intro);
-    }
+public void PlayStepSound()
+{
+    audioSource.PlayOneShot(stepSound);
+}
 
-    public void PlayIntro2()
-    {
-        audioSource.PlayOneShot(intro2);
-    }
+public void PlayTonSound()
+{
+    audioSource.PlayOneShot(tonSound);
+}
 
-    public void PlayGroundD()
-    {
-        audioSource.PlayOneShot(groundD);
-    }
+public void PlayTrampoline()
+{
+    audioSource.PlayOneShot(trampoline);
+}
 
-    public void PlayGroundD2()
-    {
-        audioSource.PlayOneShot(groundD2);
-    }
+public void PlayWaterSound()
+{
+    audioSource.PlayOneShot(water);
+}
 
-    public void PlayTrampoline()
-
-    {
-        audioSource.PlayOneShot(trampoline);
-    }
-
-    public void PlayWaterSound()
-    {
-        audioSource.PlayOneShot(water);
-    }
+public void PlayWinSound()
+{
+    audioSource.loop = true;
+    audioSource.PlayOneShot(winSound);
 }
